@@ -53,6 +53,7 @@ pub(crate) mod compressed_writer;
 pub(crate) mod entry_stream;
 pub(crate) mod entry_whole;
 pub(crate) mod io;
+pub mod owned_writer;
 
 pub use entry_stream::EntryStreamWriter;
 
